@@ -6,9 +6,9 @@ function App() {
   return (
     <div className="App">
       {/*Header*/}
-<Header>
+        <Header>
 
-</Header>
+        </Header>
       {/* auth is true
           sideBar
           FilesView(main area)
