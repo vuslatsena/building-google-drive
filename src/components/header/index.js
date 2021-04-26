@@ -1,7 +1,11 @@
 import React from "react"
+import '../../styles/Header.css'
+
 import GDriveLogo from '../../media/860px-Google_Drive_icon_(2020).png'
 import SearchIcon from '@material-ui/icons/Search';
 import ExpandMoreIcon from'@material-ui/icons/ExpandMore';
+import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
+import SettingsIcon from '@material-ui/icons/Settings';
 
 const index = () => {
     return(
@@ -21,7 +25,12 @@ const index = () => {
                 <ExpandMoreIcon/>
 
         <div className="header_icons">
+            <span>
+                <HelpOutlineIcon/>
+                <SettingsIcon/>
 
+            </span>
+            <img src="" alt="User Photo"/>
         </div>
     </div>
 
